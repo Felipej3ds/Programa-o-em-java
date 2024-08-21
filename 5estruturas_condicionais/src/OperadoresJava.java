@@ -1,4 +1,4 @@
-public class OperadoresJava{
+public class OperadoresJava{ /*Operadores em java são simbulos utilizados para performar operações específicas */
 
     public static void main(String[] args) {
         // Demonstração dos operadores
@@ -30,7 +30,7 @@ public class OperadoresJava{
         OperadorInstanceof.demo();
     }
 
-    static class OperadoresAritmeticos {
+    static class OperadoresAritmeticos { //Operadores aritiméticos são utilizados para performar operações simples nos tipos de dados primitivos
         static void demo() {
             int a = 10;
             int b = 5;
@@ -43,7 +43,7 @@ public class OperadoresJava{
         }
     }
 
-    static class OperadoresUnarios {
+    static class OperadoresUnarios { // Operadores Unarios são utilizados para incrementar ou decrementar ou negar um valor
         static void demo() {
             int a = 10;
 
@@ -62,7 +62,7 @@ public class OperadoresJava{
         }
     }
 
-    static class OperadoresRelacionais {
+    static class OperadoresRelacionais { //Esses operadores são utilizados para checkar por relações como (maior que, menor que, igual a ) e retornar valores booleanos
         static void demo() {
             int a = 10;
             int b = 5;
@@ -76,7 +76,7 @@ public class OperadoresJava{
         }
     }
 
-    static class OperadoresLogicos {
+    static class OperadoresLogicos { // é utilizao para performar um e logico ou um or logico e um not logico que inverte o valor logico
         static void demo() {
             boolean x = true;
             boolean y = false;
@@ -87,12 +87,12 @@ public class OperadoresJava{
         }
     }
 
-    static class OperadorTernario {
+    static class OperadorTernario { // é uma versão "encurtada" do if-else que possui tres operandos(dai o nome ternario) 
         static void demo() {
             int a = 10;
             int b = 5;
 
-            String resultado = (a > b) ? "a é maior que b" : "a não é maior que b";
+            String resultado = (a > b) ? "a é maior que b" : "a não é maior que b"; /*formato geral*/ //(condição ? if true : if false)
             System.out.println(resultado);
         }
     }
